@@ -18,7 +18,7 @@ npm install -g grunt-cli
 (-g = globally)
 
 
-### Install important/base grunt plug-ins
+### Install important/base Grunt plug-ins
 
 Grunt has a ton of great plug-ins to make development easier.
 Grunt knows what plug-ins to load and what to do with them via the included _Gruntfile.js_ already in the repo.
