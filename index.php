@@ -28,7 +28,7 @@
 
         <script src="bower_components/jquery/jquery.min.js"></script>
         <script src="bower_components/bootstrap/bootstrap.min.js"></script>
-        <script src="js/build/global.js"></script>
+        <script src="js/build/production.js"></script>
 
     </body>
 </html>
