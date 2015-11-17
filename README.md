@@ -14,8 +14,8 @@ npm install
 We should also install the Grunt CLI (command line interface) to give us global access to the grunt command from within Terminal.
 ```javascript
 npm install -g grunt-cli
+_NOTE: -g just means install the command for access globally!
 ```
-(-g = globally)
 
 ### Install base frameworks/libraries via Bower
 
