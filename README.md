@@ -40,6 +40,7 @@ Grunt knows what "plug-ins"(?) to load and what to do with them via the included
 
 The _Gruntfile.js_ comes with a handful of useful tasks ready to rock!
 These are:
+
 1. grunt-contrib-concat
 	- used for concatenating multiple javascript files into a single javascript file
 2. grunt-contrib-uglify
