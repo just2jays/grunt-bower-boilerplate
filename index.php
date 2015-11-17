@@ -10,9 +10,9 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/build/global.css">
+        <script src="bower_components/modernizr/modernizr.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,12 +20,15 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is the Boilerplate.</p>
+        <div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>...</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="bower_components/jquery/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/bootstrap.min.js"></script>
+        <script src="js/build/global.js"></script>
 
     </body>
 </html>
